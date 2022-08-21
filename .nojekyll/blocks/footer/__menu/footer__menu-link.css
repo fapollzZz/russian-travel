@@ -1,0 +1,22 @@
+.footer__menu-link li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media screen and (max-width:1024px) {
+  .footer__menu-link{
+    padding: 0;
+  }
+}
+@media screen and (max-width:768px) {
+  .footer__menu-link{
+    padding: 0;
+  }
+}
+@media screen and (max-width:320px) {
+  .footer__menu-link{
+    padding: 0;
+    margin-bottom: 48px;
+  }
+}
