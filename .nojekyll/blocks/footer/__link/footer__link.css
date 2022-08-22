@@ -10,9 +10,14 @@
   margin: 0;
   margin-right: 18px;
   padding: 0;
+  transition: all 0.5s ease-out;
+  opacity: 1;
 }
 .footer__link:not(:first-child){
   margin-right: 18px;
+}
+.footer__link:hover{
+  opacity: 0.8;
 }
 @media screen and (max-width:1024px) {
   .footer__link{
