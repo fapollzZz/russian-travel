@@ -3,22 +3,12 @@
   width: 100%;
   background-color: #2A2C2F;
 }
-.cover__overlay::before{
-  content: '';
-  background: #2A2C2F;
-  opacity: 0.3;
-  cursor: pointer;
-}
 @media screen and (max-width: 1024px) {
   .cover__overlay{
     max-width: 1024px;
     height: 640px;
     width: 100%;
     margin: 0 0 92px;
-  }
-  .cover__overlay:hover::before{
-    content: '';
-    opacity: 0.8;
   }
 }
 @media screen and (max-width: 768px) {
