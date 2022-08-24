@@ -5,6 +5,9 @@
   max-width: 456px;
   margin:0;
   padding: 0;
+  padding-bottom: 48px;
+  margin-top: auto;
+  margin-left: 32px;
 }
 @media screen and (max-width:320px) {
   .place__website{

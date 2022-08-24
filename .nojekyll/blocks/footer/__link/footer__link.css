@@ -1,7 +1,5 @@
 .footer__link{
-  max-width: 106px;
-  width: 100%;
-  font-family: 'Inter';
+  font-family: 'Inter'Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -9,8 +7,7 @@
   color: #FFFFFF;
   text-decoration: none;
   margin: 0;
-  margin-right: 18px;
-  padding: 0;
+  padding-right: 18px;
   transition: all 0.5s ease-out;
   opacity: 1;
 }
