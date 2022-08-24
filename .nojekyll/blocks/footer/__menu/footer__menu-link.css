@@ -17,6 +17,6 @@
 @media screen and (max-width:320px) {
   .footer__menu-link{
     padding: 0;
-    margin-bottom: 48px;
+    margin: 0 0 48px;
   }
 }

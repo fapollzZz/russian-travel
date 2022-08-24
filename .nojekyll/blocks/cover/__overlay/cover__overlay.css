@@ -2,6 +2,11 @@
   max-width: 1184px;
   width: 100%;
   background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: 2;
+}
+.cover__overlay:hover{
+  opacity: 0.8;
 }
 @media screen and (max-width: 1024px) {
   .cover__overlay{

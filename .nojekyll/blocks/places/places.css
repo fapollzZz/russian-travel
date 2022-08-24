@@ -24,9 +24,10 @@
 }
 @media screen and (max-width:320px) {
   .places{
-    display: grid;
-    grid-template-rows:288px;
-    grid-row-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    gap: 32px;
     margin: 64px 0 66px;
   }
 }

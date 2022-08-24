@@ -1,17 +1,19 @@
 .cover{
   display: flex;
-  background: url(../images/cover/cover-trains.jpg);
-  background-size: cover;
+  background: url(../../../images/cover/cover-trains.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
   max-width: 1184px;
-  height: 740px;
+  max-height: 740px;
   width: 100%;
   margin: 0 48px 92px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
   .cover{
     max-width: 1024px;
-    height: 640px;
+    max-height: 640px;
     width: 100%;
     margin: 0 0 92px;
   }
