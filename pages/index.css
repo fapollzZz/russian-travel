@@ -18,6 +18,7 @@
 @import url(../.nojekyll/blocks/places/places.css);
 @import url(../.nojekyll/blocks/places/__title/place__title.css);
 @import url(../.nojekyll/blocks/places/__image/place__image.css);
+@import url(../.nojekyl/lblocks/places/__item/place__item.css);
 @import url(../.nojekyll/blocks/places/__paragraph/place__paragraph.css);
 @import url(../.nojekyll/blocks/places/__website/place__website.css);
 @import url(../.nojekyll/blocks/places/__website/_link/place__website_link.css);

@@ -1,6 +1,6 @@
 .intro{
   max-width: 690px;
-  max-height: auto;
+  width: 100%;
   position: relative;
   display: flex;
   align-items: center;
