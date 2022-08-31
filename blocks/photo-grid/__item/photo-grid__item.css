@@ -16,6 +16,7 @@
     gap:16px;
     margin: 0;
   }
+}
 @media screen and (max-width:320px){
   .photo-grid__item{
     gap:12px;
