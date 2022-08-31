@@ -11,18 +11,18 @@
   z-index: 1;
 }
 .cover::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #2A2C2F;;
-    opacity: 0.3;
-    z-index: 1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
+  z-index: 1;
 }
 .cover:hover::after{
-      opacity: 0.8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
