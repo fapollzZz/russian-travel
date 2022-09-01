@@ -7,10 +7,15 @@
 
 @media screen and (max-width:320px) {
   .footer__menu-link{
+    display: flex;
+    flex-direction: column;
     padding: 0;
     margin: 0 0 48px;
   }
   .footer__menu-link li:not(:first-child){
+    margin-bottom: 32px;
+  }
+  .footer__menu-link li:first-child{
     margin-bottom: 32px;
   }
 }
