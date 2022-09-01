@@ -13,7 +13,4 @@
   .footer__menu-link li:not(:first-child){
     margin-bottom: 32px;
   }
-  .footer__menu-link li:first-child{
-    margin-bottom: 32px;
-  }
 }
