@@ -7,26 +7,31 @@
   line-height: 76px;
   text-align: center;
   text-decoration: none;
-  color:#FFFFFF;
+  color: #FFFFFF;
   margin: 245px 312px 32px;
   padding: 0;
+  position: relative;
+  z-index: 2;
 }
+
 @media screen and (max-width: 1024px) {
-  .cover__title{
+  .cover__title {
     max-width: 560px;
     width: 100%;
     margin: 195px 232px 32px;
   }
 }
+
 @media screen and (max-width: 768px) {
-  .cover__title{
+  .cover__title {
     max-width: 560px;
     width: 100%;
     margin: 115px 104px 32px;
   }
 }
+
 @media screen and (max-width: 320px) {
-  .cover__title{
+  .cover__title {
     max-width: 288px;
     width: 100%;
     font-size: 32px;

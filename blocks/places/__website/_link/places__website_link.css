@@ -1,13 +1,14 @@
-.places__website_link{
+.places__website_link {
   text-decoration: underline;
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
-.places__website_link:hover{
+
+.places__website_link:hover {
   opacity: 0.8;
 }

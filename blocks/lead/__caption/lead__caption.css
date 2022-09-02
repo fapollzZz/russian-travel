@@ -1,4 +1,4 @@
-.lead__caption{
+.lead__caption {
   display: inline;
   max-width: 158px;
   font-family: 'Inter', Arial, sans-serif;
@@ -6,22 +6,24 @@
   line-height: 14px;
   font-weight: 400;
   letter-spacing: 1.5px;
-  color:#FFFFFF;
+  color: #FFFFFF;
   text-transform: uppercase;
   white-space: nowrap;
   margin: 0;
   padding: 8px 0 0 0;
 }
+
 @media screen and (max-width:1024px) {
-  .lead__caption{
+  .lead__caption {
     font-size: 10px;
     line-height: 14px;
     font-weight: 400;
     letter-spacing: 1.5px;
   }
 }
-@media screen and (max-width:768px){
-  .lead__caption{
+
+@media screen and (max-width:768px) {
+  .lead__caption {
     font-size: 10px;
     line-height: 14px;
     font-weight: 400;
@@ -29,8 +31,9 @@
     margin: 0 0 0 24px;
   }
 }
-@media screen and (max-width:320px){
-  .lead__caption{
+
+@media screen and (max-width:320px) {
+  .lead__caption {
     font-size: 10px;
     line-height: 14px;
     font-weight: 400;
