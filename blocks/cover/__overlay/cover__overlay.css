@@ -8,6 +8,7 @@
   margin: 0 48px;
   z-index: 1;
 }
+
 .cover__overlay::before {
   content: '';
   position: absolute;
@@ -23,6 +24,7 @@
 .cover__overlay:hover::before {
   opacity: 0.8;
 }
+
 @media screen and (max-width: 1024px) {
   .cover__overlay {
     max-width: 1024px;
@@ -35,6 +37,14 @@
   .cover__overlay {
     max-width: 768px;
     min-height: 480px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .cover__overlay {
+    max-width: 376px;
+    min-height: 220px;
     width: 100%;
   }
 }

@@ -1,7 +1,6 @@
 .cover {
   position: relative;
   display: flex;
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -13,6 +12,12 @@
 @media screen and (max-width: 768px) {
   .cover {
     margin: 0 0 88px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .cover {
+    margin: 0 0 64px;
   }
 }
 
