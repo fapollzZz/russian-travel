@@ -38,6 +38,29 @@
   }
 }
 
+@media screen and (max-width:475px) {
+  .places {
+    display: flex;
+    flex-direction: column;
+    max-width: 475px;
+    gap: 32px;
+    margin: 64px auto 66px;
+  }
+
+  .places:not(:first-child) {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  .places:first-child {
+    margin-bottom: 50px;
+  }
+
+  .places:last-child {
+    margin-bottom: 66px;
+  }
+}
+
 @media screen and (max-width:376px) {
   .places {
     display: flex;
