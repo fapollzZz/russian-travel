@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   max-width: 720px;
-  width: 100%;
   color: #FFFFFF;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
@@ -23,17 +22,16 @@
 @media screen and (max-width:768px) {
   .lead__title {
     max-width: 720px;
-    width: 100%;
     font-size: 96px;
     line-height: 100px;
     margin: 0 auto 32px;
   }
 }
 
+
 @media screen and (max-width:376px) {
   .lead__title {
     max-width: 288px;
-    width: 100%;
     font-size: 40px;
     line-height: 44px;
     margin: 0 auto 16px;
@@ -43,7 +41,6 @@
 @media screen and (max-width:320px) {
   .lead__title {
     max-width: 288px;
-    width: 100%;
     font-size: 40px;
     line-height: 44px;
     margin: 0 auto 16px;

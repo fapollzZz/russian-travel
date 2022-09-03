@@ -1,6 +1,5 @@
 .cover__subtitle {
   max-width: 360px;
-  width: 100%;
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -15,28 +14,18 @@
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    max-width: 360px;
-    width: 100%;
-    font-size: 18px;
-    line-height: 22px;
     margin: 0 332px 195px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    max-width: 360px;
-    width: 100%;
-    font-size: 18px;
-    line-height: 22px;
     margin: 0 204px 115px;
   }
 }
 
 @media screen and (max-width: 376px) {
   .cover__subtitle {
-    max-width: 288px;
-    width: 100%;
     font-size: 14px;
     line-height: 16px;
     margin: 0 16px 33px;
@@ -45,8 +34,6 @@
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {
-    max-width: 288px;
-    width: 100%;
     font-size: 14px;
     line-height: 16px;
     margin: 0 16px 33px;
