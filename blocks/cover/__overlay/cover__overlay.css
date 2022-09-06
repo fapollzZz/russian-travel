@@ -28,7 +28,6 @@
   .cover__overlay {
     max-width: 1024px;
     width: 100%;
-    margin: 0;
   }
 }
 
@@ -36,7 +35,6 @@
   .cover__overlay {
     max-width: 768px;
     width: 100%;
-    margin: 0;
   }
 }
 
@@ -44,7 +42,6 @@
   .cover__overlay {
     max-width: 475px;
     width: 100%;
-    margin: 0;
   }
 }
 
@@ -52,7 +49,6 @@
   .cover__overlay {
     max-width: 376px;
     width: 100%;
-    margin: 0;
   }
 }
 
@@ -60,6 +56,5 @@
   .cover__overlay {
     max-width: 320px;
     width: 100%;
-    margin: 0;
   }
 }
