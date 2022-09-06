@@ -7,6 +7,22 @@
   margin: 92px 48px 24px;
 }
 
+@media screen and (max-width:1280px) {
+  .footer {
+    max-width: 1184px;
+    width: 100%;
+    margin: 92px 48px 24px;
+  }
+}
+
+@media screen and (max-width:1248px) {
+  .footer {
+    max-width: 928px;
+    width: 100%;
+    margin: 0 48px 24px;
+  }
+}
+
 @media screen and (max-width:1024px) {
   .footer {
     max-width: 928px;
