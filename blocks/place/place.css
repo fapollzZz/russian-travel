@@ -73,12 +73,11 @@
     }
 
     .place:not(:first-child) {
-        margin: 0 16px 50px;
+        margin: 0 0 50px;
     }
 
     .place:first-child {
-        margin-top: 64px;
-        margin-bottom: 50px;
+        margin: 64px 0 50px;
     }
 
     .place:last-child {
