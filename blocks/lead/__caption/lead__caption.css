@@ -8,7 +8,7 @@
   letter-spacing: 1.5px;
   color: #FFFFFF;
   text-transform: uppercase;
-  white-space: nowrap;
+  text-align: left;
   margin: 0;
   padding: 8px 0 0 0;
 }
@@ -24,20 +24,12 @@
 
 @media screen and (max-width:768px) {
   .lead__caption {
-    font-size: 10px;
-    line-height: 14px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
     margin: 0 0 0 24px;
   }
 }
 
 @media screen and (max-width:320px) {
   .lead__caption {
-    font-size: 10px;
-    line-height: 14px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
     margin: 0 0 0 16px;
   }
 }

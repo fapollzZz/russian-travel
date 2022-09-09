@@ -1,7 +1,3 @@
-a {
-  text-decoration: none;
-}
-
 .page {
   max-width: 1280px;
   width: 100%;
@@ -13,20 +9,17 @@ a {
 @media screen and (max-width:1024px) {
   .page {
     max-width: 1024px;
-    width: 100%;
   }
 }
 
 @media screen and (max-width:768px) {
   .page {
     max-width: 768px;
-    width: 100%;
   }
 }
 
 @media screen and (max-width:320px) {
   .page {
     max-width: 320px;
-    width: 100%;
   }
 }

@@ -3,11 +3,12 @@
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 900;
   font-size: 72px;
+  font-style: normal;
   line-height: 76px;
   text-align: center;
   text-decoration: none;
   color: #FFFFFF;
-  margin: 245px 312px 32px;
+  margin: 0 0 32px;
   padding: 0;
   position: relative;
   z-index: 2;
@@ -15,42 +16,43 @@
 
 @media screen and (max-width: 1280px) {
   .cover__title {
-    margin: 245px 312px 32px;
+    margin: 0 0 32px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
-    margin: 195px auto 32px;
+    margin: 0 0 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
-    margin: 115px auto 32px;
+    margin: 0 0 32px;
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 570px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 33px auto 16px;
+    margin: 0 0 19px;
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 396px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 33px auto 16px;
+    margin: 0 0 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-    margin: 33px auto 16px;
+    margin: 0 0 16px;
   }
 }

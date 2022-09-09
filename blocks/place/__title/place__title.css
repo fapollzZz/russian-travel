@@ -1,4 +1,4 @@
-.places__title {
+.place__title {
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 900;
   font-size: 72px;
@@ -8,15 +8,15 @@
   padding: 0;
 }
 
-@media screen and (max-width:768px) {
-  .places__title {
+@media screen and (max-width:1001px) {
+  .place__title {
     font-size: 42px;
     line-height: 46px;
   }
 }
 
 @media screen and (max-width:475px) {
-  .places__title {
+  .place__title {
     font-size: 37px;
     line-height: 39px;
     margin: 0 16px 0;
@@ -24,17 +24,8 @@
 }
 
 @media screen and (max-width:376px) {
-  .places__title {
+  .place__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 0 16px 0;
-  }
-}
-
-@media screen and (max-width:320px) {
-  .places__title {
-    font-size: 32px;
-    line-height: 35px;
-    margin: 0 16px 0;
   }
 }

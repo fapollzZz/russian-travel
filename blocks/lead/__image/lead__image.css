@@ -2,33 +2,29 @@
   max-width: 984px;
   width: 100%;
   height: auto;
+  margin: 0;
 }
 
 @media screen and (max-width:1024px) {
   .lead__image {
     max-width: 928px;
-    margin: 0;
   }
 }
 
 @media screen and (max-width:768px) {
   .lead__image {
     max-width: 768px;
-    margin: 0;
   }
 }
-
 
 @media screen and (max-width:376px) {
   .lead__image {
     max-width: 376px;
-    margin: 0;
   }
 }
 
 @media screen and (max-width:320px) {
   .lead__image {
     max-width: 320px;
-    margin: 0;
   }
 }
