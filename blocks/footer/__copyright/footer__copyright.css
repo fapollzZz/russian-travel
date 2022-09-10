@@ -18,17 +18,6 @@
 
 @media screen and (max-width:768px) {
   .footer__copyright {
-    font-size: 13px;
-    line-height: 14px;
-    text-align: left;
-  }
-}
-
-
-@media screen and (max-width:320px) {
-  .footer__copyright {
-    font-size: 14px;
-    line-height: 16px;
     text-align: left;
   }
 }

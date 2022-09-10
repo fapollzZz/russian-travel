@@ -11,36 +11,11 @@
     flex-direction: column;
     margin: 0 0 36px;
   }
-
 }
 
 @media screen and (max-width:475px) {
   .footer__menu {
-    display: flex;
-    flex-direction: column;
     padding: 0;
     margin: 0 0 48px;
   }
-
-}
-
-@media screen and (max-width:376px) {
-  .footer__menu {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0 0 48px;
-  }
-
-}
-
-@media screen and (max-width:320px) {
-  .footer__menu-link {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0 0 48px;
-  }
-
-
 }

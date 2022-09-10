@@ -26,11 +26,11 @@
   background-color: #2A2C2F;
   opacity: 0.3;
   z-index: 1;
+  transition: all 0.5s ease-out;
 }
 
 .cover__overlay:hover::before {
-  opacity: 0.7;
-  transition: all 0.5s ease-out;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
@@ -48,12 +48,6 @@
 @media screen and (max-width: 475px) {
   .cover__overlay {
     max-width: 475px;
-  }
-}
-
-@media screen and (max-width: 376px) {
-  .cover__overlay {
-    max-width: 376px;
   }
 }
 

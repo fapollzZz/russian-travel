@@ -12,15 +12,7 @@
 }
 
 .footer__link:hover {
-  opacity: 0.7;
-  transition: all 0.5s ease-out;
-}
-
-@media screen and (max-width:1024px) {
-  .footer__link {
-    font-size: 16px;
-    line-height: 18px;
-  }
+  opacity: 0.8;
 }
 
 @media screen and (max-width:993px) {
@@ -35,7 +27,6 @@
   .footer__link {
     font-size: 22px;
     line-height: 24px;
-    padding: 0;
   }
 }
 
@@ -43,7 +34,6 @@
   .footer__link {
     font-size: 25px;
     line-height: 26px;
-    padding: 0;
   }
 }
 
@@ -51,6 +41,5 @@
   .footer__link {
     font-size: 24px;
     line-height: 24px;
-    padding: 0;
   }
 }
