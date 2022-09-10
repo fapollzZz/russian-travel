@@ -1,4 +1,8 @@
-.header__lang-link_active:hover {
-  opacity: 0.6;
-  transition: all 0.5s ease-out;
+.header__lang-link_active {
+  text-decoration: underline;
+  margin-right: 18px;
+}
+
+.header__lang-link_active:last-child{
+  margin-right: 0;
 }
