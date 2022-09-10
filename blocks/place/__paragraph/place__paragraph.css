@@ -27,6 +27,7 @@
   .place__paragraph {
     margin: 0 16px;
   }
+
   .place__paragraph:last-child {
     margin: 0 16px;
   }
